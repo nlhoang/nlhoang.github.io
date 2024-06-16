@@ -14,22 +14,19 @@
 
 <body>
 <!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
         <a href="" class="uk-navbar-item uk-logo uk-light">NLHOANG</a>
     </div>
     <div class="uk-navbar-right">
-
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#awards" uk-scroll>Awards</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#publications" uk-scroll>Publications</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="mailto:" uk-scroll>Contact</a></li>
-
         </ul>
-
     </div>
 </nav>
 <!-- Navigation Bar Ends  -->
@@ -41,12 +38,9 @@
         <a href="" class="uk-navbar-item uk-logo uk-light">NLHOANG.</a>
     </div>
     <div class="uk-navbar-right">
-
         <ul class="uk-navbar-nav uk-light">
             <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
-
         </ul>
-
     </div>
 </nav>
 
@@ -60,7 +54,6 @@
             <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
             <li class="uk-active"><a href="#publications" uk-scroll>Publications</a></li>
             <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
-
         </ul>
     </div>
 </div>
@@ -69,7 +62,10 @@
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Nguyen Le Hoang, a PhD Student, <br>Ritsumeikan University, Japan.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-xlarge-top uk-flex uk-flex-center">
+        <img src="nlhoang2.jpg" alt="Nguyen Le Hoang" style="max-width: 50%; height: auto;">
+    </div>
+    <!--<a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>-->
 </section>
 <!-- Home Ends -->
 
@@ -79,13 +75,16 @@
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
     <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
     <!-- Change here to ur paragraph -->
-    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-        <p>Hello, and welcome to my personal website. My name is Nguyen Le Hoang （グエン　レ　ホアン）, and I am a PhD student at Ritsumeikan University, Japan. My area of specialization is in Machine Learning and Robotics, which are fascinating fields with a lot of potential.</p>
+    <div class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">
+        <p>Hello, and welcome to my personal website. My name is Nguyen Le Hoang （グエン　レ　ホアン）, and I am a PhD student in Emergent Systems Laboratory, Ritsumeikan University, Japan. My specialization is in Machine Learning and Robotics, with a particular focus on Symbol Emergence and Emergent Communication.</p>
         <p>This website serves as my online resume and portfolio, where you can learn more about my academic and professional background. In addition to my academic pursuits, I am an active individual with a passion for sports like cycling, swimming, and football. I have also traveled extensively and enjoy exploring new cultures and meeting new people.</p>
         <p>On this website, you will find a comprehensive overview of my education, work experience, and professional skills. You will also find a list of my publications, conference presentations, and academic achievements.</p>
         <p>Whether you are an employer, colleague, or fellow academic, I hope that this website provides you with a clear understanding of my expertise and qualifications. If you have any questions or would like to learn more about my work, please do not hesitate to contact me. Thank you for taking the time to visit my website, and I look forward to hearing from you.</p>
+        <p>Email: <a href="mailto:nguyen.lehoang@em.ci.ritsumei.ac.jp" target="_top">nguyen.lehoang@em.ci.ritsumei.ac.jp</a></p>
     </div>
+    <!--
     <a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="facebook"></a> <a href="" class="uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+    -->
 </section>
 <!-- About Me Ends -->
 
@@ -94,10 +93,10 @@
     <br>
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
     <h3 class="uk-margin-xlarge-left uk-light">Education</h3>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Currently, for PhD degree:</strong> Ritsumeikan University, Japan</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Master Degree</strong> from Ho Chi Minh City University of Technology, Vietnam</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Bachelor Degree </strong> from Ho Chi Minh City University of Information Technology, Vietnam</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>High School, Major in Mathematics, </strong> Ho Chi Minh City High School for the Gifted, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Currently, for PhD degree:</strong> Ritsumeikan University, Japan</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>2021 - Master Degree</strong> from Ho Chi Minh City University of Technology, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>2013 - Bachelor Degree </strong> from Ho Chi Minh City University of Information Technology, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>High School, Major in Mathematics, </strong> Ho Chi Minh City High School for the Gifted, Vietnam</p>
 </section>
 <!-- Education Ends -->
 
@@ -106,7 +105,13 @@
     <br>
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
     <h3 class="uk-margin-xlarge-left uk-light">Working Experience</h3>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">To be updated ...</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; April 2024 - present, Technical Assistant, Kyoto University, Japan</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; April 2022 - March 2024, Research Assistant, Ritsumeikan University, Japan</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; October 2020 - March 2022, Research Assistant, Ho Chi Minh City University of Technology, VNU-HCM, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2015-2019, Manager, Orochi service trading joint stock company, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2014-2015, Specialist, Ho Chi Minh City Open University, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2013-2014, Software Developer, Vigilant Solutions, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2011-2013, Website Designer, Freelancer</p>
 </section>
 <!-- Working Ends -->
 
@@ -115,11 +120,12 @@
     <br>
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
     <h3 class="uk-margin-xlarge-left uk-light">Awards and Honors</h3>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; New Educational Xross-Training NEXT Fellowship Program, Ritsumeikan University, Japan</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; 2nd Prize, National Mathematics Competition, Vietnam</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; 2nd Prize, Ho Chi Minh City Mathematics Competition, Vietnam</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; 2nd Prize, Singapore Olympiad Mathematics Competition</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; 1st Prize, Ho Chi Minh City Chinese Chess Competition, Vietnam</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; New Educational Xross-Training NEXT Fellowship Program, Ritsumeikan University, Japan (2022-2025)</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2nd Prize, National Mathematics Competition, Vietnam (2003)</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2nd Prize, Ho Chi Minh City Mathematics Competition, Vietnam(2002, 2003, 2005, 2006)</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 2nd Prize, Singapore Olympiad Mathematics Competition (2004)</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; 1st Prize, Ho Chi Minh City Chinese Chess Competition, Vietnam (2000)</p>
+</section>
 <!-- Awards Ends -->
 
 <!-- Projects Section -->
@@ -127,30 +133,39 @@
     <br>
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
     <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-    <p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+    <p class="uk-light uk-margin-xlarge-left">Projects that i've been working on</p>
 
     <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
         <!-- Change all of this to ur projects -->
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
             <h4>Symbol Emergence System Science Creation: Academic Fusion Research Center of Real-World Artificial Intelligence and Next-Generation Symbiotic Society</h4>
             <p>Organization: Ritsumeikan Global Innovation Research Organization (R-GIRO)</p>
+            <p>Time: 2022-present (as graduate student)</p>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Symbol Emergence System Science Creation: Academic Fusion Research Center of Real-World Artificial Intelligence and Next-Generation Symbiotic Society</h4>
+            <p>Organization: Ritsumeikan Global Innovation Research Organization (R-GIRO)</p>
+            <p>Time: 2022-present (as graduate student)</p>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
             <h4>Open Data Resources for Ho Chi Minh City Government</h4>
-            <p>Organizations: Department of Science and Technology, Ho Chi Minh City and Ho Chi Minh City University of Technology (HCMUT)</p>
-            <!--<a class="uk-button-text uk-text-decoration-none" href=""><span uk-icon="icon: link"></span> Website Link </a>-->
+            <p>Organization: Department of Science and Technology, Ho Chi Minh City and Ho Chi Minh City University of Technology (HCMUT)</p>
+            <p>Time: 2020-2021 (as graduate student)</p>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
             <h4>Orochi - Japanese Cultural Matsuri Series in Vietnam</h4>
             <p>Organization: Startup Project</p>
+            <p>Time: 2015-2019 (as technical manager)</p>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
             <h4>Vigilant LEARN - Law Enforcement Platform for National Vehicle Location Service</h4>
             <p>Organization: Vigilant Solutions, Motorola Corporation</p>
+            <p>Time: 2013-2014 (as programmer)</p>
         </div>
         <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
             <h4>Social Network Analysis for Students in Vietnamese National University</h4>
-            <p>Organizations: Vietnam National University (VNU) and Ho Chi Minh City University of Information Technology (UIT)</p>
+            <p>Organization: Vietnam National University (VNU) and Ho Chi Minh City University of Information Technology (UIT)</p>
+            <p>Time: 2012-2013 (as undergraduate student)</p>
         </div>
     </div>
 
@@ -163,8 +178,11 @@
     <br>
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
     <h3 class="uk-margin-xlarge-left uk-light">Journals</h3>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; Tran Khanh Dang, Ly Hoang Dang, Ta Manh Huy and <strong>Nguyen Le Hoang</strong>. An Elastic Data Conversion Framework - A Case Study for MySQL and MongoDB. SN Computer Science (2021) 2:4, DOI: 10.1007/s42979-021-00716-3</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Le Hong Trang and Tran Khanh Dang. A Comparative Study of the Some Methods Used in Constructing Coresets for Clustering Large Datasets. SN Computer Science (2020) 1:215, DOI: 10.1007/s42979-020-00227-7</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Tadahiro Taniguchi, Yoshinobu Hagiwara, Akira Taniguchi. Emergent Communication of Multimodal Deep Generative Models based on Metropolis-Hastings Naming Game. Frontiers in Robotics and AI (2024) Vol 10. DOI: 10.3389/frobt.2023.1290604</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Tadahiro Taniguchi, Yuto Yoshida, Yuta Matsui, <strong>Nguyen Le Hoang</strong>, Akira Taniguchi, Yoshinobu Hagiwara. Emergent Communication through Metropolis-Hastings Naming Game with Deep Generative Models.  Advanced Robotics (2023) 37(19), 1266–1282. DOI: 10.1080/01691864.2023.2260856</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Tran Khanh Dang. Enhancing Big Data Conversion Validation with Alpha-Lightweight Coreset. SN Computer Science (2023) 4:799, DOI: 10.1007/s42979-023-02206-0</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Tran Khanh Dang, Ly Hoang Dang, Ta Manh Huy and <strong>Nguyen Le Hoang</strong>. An Elastic Data Conversion Framework - A Case Study for MySQL and MongoDB. SN Computer Science (2021) 2:4, DOI: 10.1007/s42979-021-00716-3</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Le Hong Trang and Tran Khanh Dang. A Comparative Study of the Some Methods Used in Constructing Coresets for Clustering Large Datasets. SN Computer Science (2020) 1:215, DOI: 10.1007/s42979-020-00227-7</p>
 </section>
 <!-- Journals Ends -->
 
@@ -172,15 +190,18 @@
 <section id="publications_" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <br>
     <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
-    <h3 class="uk-margin-xlarge-left uk-light">Publications</h3>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong> and Tran Khanh Dang. Alpha Lightweight Coreset for k-means Clustering. The 16th International Conference on Ubiquitous Information Management and Communication IMCOM 2022, DOI: 10.1109/IMCOM53663.2022.9721770</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; Ta Manh Huy, Tran Khanh Dang and <strong>Nguyen Le Hoang</strong>. Intermediate Data Format for the Elastic Data Conversion Framework. The 15th International Conference on Ubiquitous Information Management and Communication IMCOM 2021, DOI: 10.1109/IMCOM51814.2021.9377366</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; Tran Khanh Dang, Ta Manh Huy and <strong>Nguyen Le Hoang</strong>. An Elastic Data Conversion Framework for Data Integration System. Future Data and Security Engineering LNCS 12466, 2020, DOI: 10.1007/978-981-33-4370-2_3</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; Le Hong Trang, <strong>Nguyen Le Hoang</strong> and Tran Khanh Dang. A Farthest First Traversal based Sampling Algorithm for k-clustering. The 14th International Conference on Ubiquitous Information Management and Communication IMCOM 2020, DOI: 10.1109/IMCOM48794.2020.9001738</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Tran Khanh Dang and Le Hong Trang. A Comparative Study of the Use of Coresets for Clustering Large Datasets. Future Data and Security Engineering LNCS 11814, 2019. DOI: 10.1007/978-3-030-35653-8_4</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; Hoa Tran Quang, Hung Vo Ho Tien, <strong>Nguyen Le Hoang</strong>, Thanh Ho Trung and Phuc Do. Finding the Cluster of Actors in Social Network based on the Topic of Messages. Intelligent Information and Database Systems LNAI 8397, 2014. DOI: 10.1007/978-3-319-05476-6_19</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Pham Vu Dang Khoa and Do Phuc. Predicting Preferred Topics of Authors Based on Co-Authorship Network. Proceedings of 2013 IEEE RIVF International Conference on Information, Communication and Technologies, 2013. DOI: 10.1109/RIVF.2013.6719869</p>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">&#9702; Truong Hoang Nhut, Do Phuc and <strong>Nguyen Le Hoang</strong>. A Fast Algorithm for Predicting Topics of Scientific Papers based on Co-Authorship Graph Model. Advanced Method for Computational Collective Intelligence, Volume 457, 2012. DOI: 10.1007/978-3-642-34300-1_8</p>
+    <h3 class="uk-margin-xlarge-left uk-light">Conference Papers</h3>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Zehang Zhang, Takato Horii, <strong>Nguyen Le Hoang</strong> and Tadahiro Taniguchi. Symbol Emergence of Emotion through Multimodal Deep Generative Models and Metropolis-Hastings Naming Game. The 38th Annual Conference of the Japanese Society for Artificial Intelligence JSAI 2024, in Shizuoka, Japan.</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Yuta Matsui, Yoshinobu Hagiwara, Akira Taniguchi and Tadahiro Taniguchi. Compositionality and Generalization in Emergent Communication using the Metropolis-Hastings Naming Game.  The IEEE International Conference on Development and Learning Conference ICDL 2024 in Austin, Texas, U.S.A.</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Tran Khanh Dang and Thai San Dang. Implement the Data Conversion System by Using Alpha-Lightweight Coreset for Validation Process. The 9th International Conference on Future Data and Security Engineering FDSE 2022 (CCIS 1688) in Ho Chi Minh City, Vietnam. DOI: 10.1007/978-981-19-8069-5_7</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong> and Tran Khanh Dang. Alpha Lightweight Coreset for k-means Clustering. The 16th International Conference on Ubiquitous Information Management and Communication IMCOM 2022, in Seoul, Korea. DOI: 10.1109/IMCOM53663.2022.9721770</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Ta Manh Huy, Tran Khanh Dang and <strong>Nguyen Le Hoang</strong>. Intermediate Data Format for the Elastic Data Conversion Framework. The 15th International Conference on Ubiquitous Information Management and Communication IMCOM 2021, in Seoul, Korea. DOI: 10.1109/IMCOM51814.2021.9377366</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Tran Khanh Dang, Ta Manh Huy and <strong>Nguyen Le Hoang</strong>. An Elastic Data Conversion Framework for Data Integration System. The 7th International Conference on Future Data and Security Engineering FDSE 2020 (LNCS 12466), in Binh Dinh, Vietnam. DOI: 10.1007/978-981-33-4370-2_3</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Le Hong Trang, <strong>Nguyen Le Hoang</strong> and Tran Khanh Dang. A Farthest First Traversal based Sampling Algorithm for k-clustering. The 14th International Conference on Ubiquitous Information Management and Communication IMCOM 2020, in Taichung, Taiwan. DOI: 10.1109/IMCOM48794.2020.9001738</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Tran Khanh Dang and Le Hong Trang. A Comparative Study of the Use of Coresets for Clustering Large Datasets. The 6th International Conference on Future Data and Security Engineering FDSE 2019 (LNCS 11814), in Nha Trang, Vietnam. DOI: 10.1007/978-3-030-35653-8_4</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Hoa Tran Quang, Hung Vo Ho Tien, <strong>Nguyen Le Hoang</strong>, Thanh Ho Trung and Phuc Do. Finding the Cluster of Actors in Social Network based on the Topic of Messages. The 6th Asian Conference on Intelligent Information and Database Systems ACIIDS 2014 (LNAI 8397), in Bangkok, Thailand. DOI: 10.1007/978-3-319-05476-6_19</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; <strong>Nguyen Le Hoang</strong>, Pham Vu Dang Khoa and Do Phuc. Predicting Preferred Topics of Authors Based on Co-Authorship Network. The 11th IEEE International Conference on Research, Innovation and Vision for the Future RIVF 2013, in Hanoi, Vietnam. DOI: 10.1109/RIVF.2013.6719869</p>
+    <p class="uk-margin-xlarge-left uk-light uk-margin-xlarge-right">&#9702; Truong Hoang Nhut, Do Phuc and <strong>Nguyen Le Hoang</strong>. A Fast Algorithm for Predicting Topics of Scientific Papers based on Co-Authorship Graph Model. The 4th International Conference on Computational Collective Intelligence ICCCI 2012 (SCI 457), in Ho Chi Minh City, Vietnam. DOI: 10.1007/978-3-642-34300-1_8</p>
 </section>
 <!-- Publications Ends -->
 
